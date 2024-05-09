@@ -4,6 +4,7 @@ Handy utility for detecting and denicking nicked players.
 By default whenever a nicked player joins, their presence will be automatically announced. Additionally, if they are using their real Minecraft skin (/nick skin real) they will be automatically denicked.
 
 _Demonstration of AntiNick alerts when joining a world full of nicked players_
+
 <img width="458" alt="Screenshot 2024-05-08 at 9 37 44 PM" src="https://github.com/Arisings/AntiNick/assets/96034376/2fb8c8cf-8c82-4304-9561-7441c21eba11">
 
 ## Commands
