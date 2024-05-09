@@ -12,12 +12,12 @@ register('worldLoad', () => {
     playerList = [];
 })
 
-// Checks:
-// Every tick if total player count is less than 10
-// Every 2 ticks if total player count is less than 25
-// Every 4 ticks if total player count is less than 50
-// Every 10 ticks if total player count is less than 100
-// Every 20 ticks if total player count is less than 200
+// Planned check intervals coming soon to reduce lag in large lobbies:
+    // Every tick if total player count is less than 10
+    // Every 2 ticks if total player count is less than 25
+    // Every 4 ticks if total player count is less than 50
+    // Every 10 ticks if total player count is less than 100
+    // Every 20 ticks if total player count is less than 200
 register('tick', (partialTick) => {
     if(partialTick % 4 != 0) return
     let newPlayers = AntiNick.getAllPlayers().filter(p => !playerList.some(p2 => p2.getName() === p.getName()));
