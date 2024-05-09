@@ -1,0 +1,7 @@
+{
+  "name": "AntiNick",
+  "description": "Utility to detect and denick nicked players on Hypixel.",
+  "creator": "Arisings",
+  "version": "0.0.1",
+  "entry": "index.js"
+}
