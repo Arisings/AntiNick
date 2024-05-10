@@ -21,7 +21,7 @@ class Denicker{
         if(this.hasMalformedUUID(player)) return true;
         else if (!runMultipleTests && Player.getUUID().toString() === player.getUUID().toString() && this.hasWrongSkinUUID(player)) return true; // handle the case where the user themselves is nicked since clientside their UUID will not be spoofed
         else if(runMultipleTests && (this.hasWrongSkinUUID(player))) return true;
-        return false;s
+        return false;
     }
 
     // Multipurpose informmation retrieval method
