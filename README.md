@@ -23,5 +23,5 @@ _Demonstration of AntiNick alerts when joining a world full of nicked players_
 - Support for 1.20 ChatTriggers
 - Fabric mod support?
 
-> [!WARNING]
-> This module was made purely for educational purposes and likely violates [Hypixel's Terms of Service](https://hypixel.net/rules). While the module should be impossible to detect serverside, I am not responsible for how you use it or if you get banned for using it. Use this module at your own risk and common sense.
+# ⚠️ DISCLAIMER ⚠️
+This module was made purely for educational purposes and possibly violates [Hypixel's Terms of Service](https://hypixel.net/rules). While the module should be impossible to detect serverside, I am not responsible for how you use it or if you get banned for using it. Use it at your own risk.
