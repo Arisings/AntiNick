@@ -4,7 +4,7 @@ Handy utility for detecting and denicking nicked players on the Hypixel Network.
 To use this you must have the latest 1.8.9 Forge installed and have the latest ChatTriggers version (2.2.0). ChatTriggers: http://chattriggers.com/
 
 # Overview
-By default whenever a nicked player joins, their presence will be automatically announced. Additionally, if they are using their real Minecraft skin (/nick skin real) they will be automatically denicked. This functionality is currently hard coded and cannot be toggled, however, there are plans to add more configurability options in the future.
+Whenever a nicked player joins your server, their presence will be automatically announced. Additionally, if they are using their real Minecraft skin (/nick skin real) they will be automatically denicked. This functionality is currently hard coded and is ran every few ticks and cannot be toggled. However, there are plans to add more configurability options in the future.
 
 _Demonstration of AntiNick alerts when joining a world full of nicked players_
 
@@ -23,5 +23,5 @@ _Demonstration of AntiNick alerts when joining a world full of nicked players_
 - Support for 1.20 ChatTriggers
 - Fabric mod support?
 
-# ⚠️ DISCLAIMER ⚠️
-This module was made purely for educational purposes and possibly violates [Hypixel's Terms of Service](https://hypixel.net/rules). While the module should be impossible to detect serverside, I am not responsible for how you use it or if you get banned for using it. Use it at your own risk.
+> [!WARNING]
+> This module was made purely for educational purposes and likely violates [Hypixel's Terms of Service](https://hypixel.net/rules). While the module should be impossible to detect serverside, I am not responsible for how you use it or if you get banned for using it. Use this module at your own risk and common sense.
